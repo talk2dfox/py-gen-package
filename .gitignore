@@ -25,7 +25,8 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
+# don't we want to include this (at least in package root)?
+# MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -127,3 +128,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# vim temp files and backup
+*~
+*.swp
+*.swo
+
+
+# old
+OLD/
+BAD/
+DEPRECATED/
+
+# mine
+.trash/
