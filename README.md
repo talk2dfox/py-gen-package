@@ -1,4 +1,11 @@
 # py-gen-package
+
+**Note:**
+Newer options for python packaging, such as hatch, PDB, and poetry, fulfill most of the goals of
+py-gen-package (as well as doing much more).   Personally, I've switched to hatch, so
+py-gen-package is mostly obsolete (unless for some reason you want to stick to setup.py.
+
+
 utility which generates an initial framework for a python package
 
 
